@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html>
+
+	<head>
+
+		<title> Xtreme Sports </title>
+		
+		<meta charset="UTF-8">
+		<link rel="stylesheet"type="text/css" href="style.css">
+		
+		<style>
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+			border-right:1px solid #bbb;
+		}
+
+		li:last-child {
+			border-right: none;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 30px 93px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #4CAF50;
+		}
+		
+		
+		
+		* {
+		  box-sizing: border-box;
+		}
+
+		/* Create two equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 50%;
+		  padding: 10px;
+		  height: 300px; /* Should be removed. Only for demonstration */
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		</style>
+		
+	</head>
+
+	<body>
+	
+		<ul>
+		
+			<li><a href="#home"> Home </a></li>
+			<li><a href="#news"> Extreme Sports </a></li>
+			<li><a href="#contact"> About Us </a></li>
+			<li><a href="#about"> Recent News </a></li>
+			<li><a href="#about"> Local Sports News </a></li>
+			
+		</ul>
+		
+		<h1> Extreme Sports </h1>
+		
+		<div class="row">
+		
+			<div class="column" style="background-color:#7e9fe7;">
+				<div id="one"> <br> <p> Phasellus tortor orci, sagittis interdum tempus sit amet, elementum eu orci. Vivamus interdum sodales congue. Nullam volutpat mauris suscipit urna malesuada, eu condimentum quam mollis. Nam sit amet blandit enim. Quisque pharetra consectetur nisl. Ut iaculis lacus libero, at molestie neque tincidunt lobortis. Pellentesque efficitur sit amet dui vel blandit. In eu est fringilla, sollicitudin ipsum sit amet, luctus lectus. Vivamus vel tortor magna. Donec eget cursus sem, nec rhoncus mauris. Suspendisse fermentum eget libero et sagittis. Donec aliquet at lacus ac pretium. Fusce convallis tincidunt nisl quis convallis. Nulla at vulputate ante. Aliquam luctus ex lacus, ut dapibus metus eleifend sed. </p> </div>
+			</div>
+			
+			<div class="column" style="background-color:#7e9fe7;">
+				<div id="two"> <br> <br> <p> Maecenas volutpat quis nisi non scelerisque. Etiam sit amet ultrices tellus. Donec tincidunt massa ac mauris congue vehicula. Pellentesque porta dignissim diam. Nullam lectus sem, porttitor ut efficitur pharetra, tristique at odio. Nullam vulputate lacinia ante, non lobortis mauris dictum at. Sed efficitur nisi in nisi laoreet, id molestie arcu vestibulum. Quisque consequat et dolor et placerat. Donec tincidunt convallis lectus ac tempus. Sed gravida mollis dignissim. Sed convallis odio non est blandit viverra. Etiam non porttitor lacus. Donec ut placerat dolor, ut ornare nunc. </p> </div>
+			</div>
+			
+		</div>
+		
+		<img src="images/placeholder.png" alt="a placeholder image" class="center">
+		
+		<br> <br> <br> <br> <br> <br> <br>
+		
+		<footer>
+		<p> &#169; Extreme Sports 1997-2021
+		</footer>
+		
+	</body>
+
+</html>
